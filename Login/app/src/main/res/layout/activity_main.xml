@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="LOGIN"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:textSize="40dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/email"
+        android:hint="EMAIL ADDRESS"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:layout_marginTop="90dp" />
+<EditText
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/password"
+    android:hint="PASSWORD"
+    android:drawableLeft="@drawable/ic_baseline_lock_24"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_gravity="right"
+        android:text="SIGN IN"
+        android:textSize="20dp"/>
+</>

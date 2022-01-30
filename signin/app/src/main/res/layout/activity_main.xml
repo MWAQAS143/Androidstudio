@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+   android:src="@drawable/logo" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/username"
+        android:hint="Username"
+
+android:drawableLeft="@drawable/ic_baseline_people_24"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="90dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:hint="PASSWORD"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="5dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/forget"
+        android:layout_gravity="right"
+        android:hint="forget password"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text="LOG IN"
+        android:textSize="30dp"/>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:id="@+id/company"
+    android:layout_gravity="center"
+    android:text="Not Using Company"
+    android:textColor="#2196F3"
+    />
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Register Now!"
+    android:textColor="#03A9F4"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
